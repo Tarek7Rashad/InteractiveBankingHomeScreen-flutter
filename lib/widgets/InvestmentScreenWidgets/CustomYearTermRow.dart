@@ -39,7 +39,7 @@ class _CustomRowState extends State<CustomRow> {
       container1Color = kBackgroundForCustomRowContainer;
     }
     if (termmmm == 5) {
-      container2Color = kBackgroundForCustomRowContainer;
+      container2Color = kBackgroundForCustomRowContainer;  
     }
     retrieveTerm().then((value) {
       log('from initial $term'); // Print the retrieved value
